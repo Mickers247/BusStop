@@ -1,0 +1,30 @@
++<!DOCTYPE html>
++<html>
++<head>
++    <meta charset="UTF-8">
++    <title>Bus Stop</title>
++</head>
++<body>
++<h1>Find your Bus Stop</h1>
++<p>Developed by Mick Ward</p>
++<!-- the main UI here -->
++<div id="loginUI">
++Please login first: <br>
++    <input type="text" id="username" placeholder="Enter your name ..."> 
++    <button type="button"
++    onclick="displayname()">
++    JOIN</button>
++</div>
++
++<script>
++    function displayname(){
++        document.getElementById('messages').innerHTML='Welcome ' + document.getElementById('username').value;
++    }
++</script>
++
++<div id="chatUI" >
++    <div id="messages"></div>
++</div>
++
++</body>
++</html>
